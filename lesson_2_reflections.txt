@@ -15,4 +15,4 @@ We can use git add to add the files to staging area. So using this command, we a
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-When we have some experimental code to create or create a new version (like a locale change) we can create a branch for these and continue adding code without worrying about breaking our master branch. These branches hold a separate list of changes that are only fixed to the branch and when the new feature is tested to be working fine, we can merge it with the master branch.
+When we have some experimental code to create, create a new version (like a locale change) or working on a bug fix, we can create a branch for these and continue adding code without worrying about breaking our master branch. These branches hold a separate list of changes that are only fixed to the branch and when the new feature is tested to be working fine, we can merge it with the master branch.
