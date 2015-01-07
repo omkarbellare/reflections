@@ -6,3 +6,8 @@ Initializing a repository creates a metadata directory .git that contains versio
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area lies between the working directory and the repository where files wait to be committed into the repository from the working directory. It is just a metadata store and does not actually store the files like the repository or the working directory. All files in the staging area are committed as a bundle so logically distinct files can be committed at different points if they are in the same working directory.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+We can use git add to add the files to staging area. So using this command, we add only those files that are logically related and later do a git commit to commit all these related files in a single commit with a meaningful commit message.
