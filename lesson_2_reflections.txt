@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository creates a metadata directory .git that contains version information for all the files that are being worked on in the directory that git init was called. You need to run git init before you commit something because it creates an Initial Commit and HEAD for the files in the directory which can then be tracked after a commit.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area lies between the working directory and the repository where files wait to be committed into the repository from the working directory. It is just a metadata store and does not actually store the files like the repository or the working directory. All files in the staging area are committed as a bundle so logically distinct files can be committed at different points if they are in the same working directory.
