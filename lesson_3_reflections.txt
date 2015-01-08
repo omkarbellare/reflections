@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Keeping a remote repository allows people to collaborate on the same project and allows everyone to contribute to it. This is very helpful in open-source projects, where anyone can help in improving code by fixing bugs and adding new features.
