@@ -23,3 +23,8 @@ If we are going offline and want to update the local repo but not worry about me
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without using Git or Github we would need to resort to sending zip files containing the changed code and a list of files changed and what change has been made through an email. Having a shared location like dropbox wouldn't allow simultaneous changes.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Using branches is useful when there are a larger group of people. On my own, I think most of the times a master branch should be enough.
