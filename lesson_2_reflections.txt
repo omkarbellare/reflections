@@ -21,3 +21,14 @@ When we have some experimental code to create, create a new version (like a loca
 How do the diagrams help you visualize the branch structure?
 
 The diagrams in the form of trees help you visualize each branch separately and also help in understanding where breaks have taken place in the branch. By following the arrows, we know all the commits that are part of the branch and if there are any unreachable commits on any branch that may be lost if not merged with the head of a branch.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is the code that is common to both is kept the same, the new lines are added and the ones that have changed in both causes a merge conflict which the users who caused the change must resolve for final commit. In the diagram these are represented by showing the two branches merging into a new node and the head is relocated to this node.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: During automatic merging of common lines, Git will not accidentally delete some lines which are possible during manual merges, is easier and can be run with a single command, whereas manual requires tedious need to go over the whole code and try to understand the change.
+Cons: Git can sometimes not know the context of code so manual intervention is sometimes necessary to decide conflicts. 
