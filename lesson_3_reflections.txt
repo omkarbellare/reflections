@@ -18,3 +18,8 @@ Use a branch to test a new feature or fix without affecting the stability of the
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 If we are going offline and want to update the local repo but not worry about merging till a later point, we can always fetch to create a separate branch.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without using Git or Github we would need to resort to sending zip files containing the changed code and a list of files changed and what change has been made through an email. Having a shared location like dropbox wouldn't allow simultaneous changes.
